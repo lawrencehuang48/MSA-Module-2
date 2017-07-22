@@ -1,0 +1,17 @@
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.csprojResolveAssemblyReference.cache
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.MainPage.xaml.g.cs
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.App.xaml.g.cs
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.CustomVision.xaml.g.cs
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Mod2.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Mod2.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.AzureTable.xaml.g.cs
