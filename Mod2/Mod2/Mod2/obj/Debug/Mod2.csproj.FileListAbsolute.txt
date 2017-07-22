@@ -15,3 +15,9 @@ C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Xamarin.
 C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.dll
 C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.pdb
 C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.AzureTable.xaml.g.cs
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.Abstractions.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.dll
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.xml
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.Abstractions.pdb
+C:\Users\Lawrence\Documents\Github\Amplify\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Media.Abstractions.xml
