@@ -100,6 +100,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Mod2.Android.dll" comes first in this list. */
 		"Mod2.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.Abstractions.dll",
 		"Plugin.Media.dll",
