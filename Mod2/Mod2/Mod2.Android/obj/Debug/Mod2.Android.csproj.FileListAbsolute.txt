@@ -201,3 +201,10 @@ C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\XbdMerge
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll.stamp
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll.stamp
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.Abstractions.pdb
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\bin\Debug\Plugin.Geolocator.dll.mdb
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Geolocator.dll.mdb

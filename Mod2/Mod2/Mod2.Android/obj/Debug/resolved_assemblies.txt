@@ -4,6 +4,8 @@ C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.CurrentActivity.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Geolocator.Abstractions.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Geolocator.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Media.Abstractions.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Media.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll

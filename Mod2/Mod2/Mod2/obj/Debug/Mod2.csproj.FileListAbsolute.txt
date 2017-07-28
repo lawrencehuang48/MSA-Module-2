@@ -72,3 +72,8 @@ C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.CustomVisio
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.AzureTable.xaml.g.cs
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.dll
 C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\obj\Debug\Mod2.pdb
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Geolocator.Abstractions.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Geolocator.dll
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Geolocator.pdb
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Geolocator.xml
+C:\Users\Lawrence\Documents\Github\App\Mod2\Mod2\Mod2\bin\Debug\Plugin.Geolocator.Abstractions.pdb
