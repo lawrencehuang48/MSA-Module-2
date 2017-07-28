@@ -39,12 +39,12 @@ namespace Mod2
             }
         }
 
-        public async Task<List<NotHotDogModel>> GetHotDogInformation()
+        public async Task<List<NotHotDogModel>> GetRiceInformation()
         {
             return await this.notHotDogTable.ToListAsync();
         }
 
-        public async Task PostHotDogInformation(NotHotDogModel notHotDogModel)
+        public async Task PostRiceInformation(NotHotDogModel notHotDogModel)
         {
             await this.notHotDogTable.InsertAsync(notHotDogModel);
         }

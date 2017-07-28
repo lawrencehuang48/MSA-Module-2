@@ -25,7 +25,7 @@ namespace Mod2
 
         async void Handle_ClickedAsync(object sender, System.EventArgs e)
         {
-            List<NotHotDogModel> notHotDogInformation = await AzureManager.AzureManagerInstance.GetHotDogInformation();
+            List<NotHotDogModel> notHotDogInformation = await AzureManager.AzureManagerInstance.GetRiceInformation();
 
             foreach (NotHotDogModel model in notHotDogInformation)
             {
@@ -34,7 +34,7 @@ namespace Mod2
                 foreach (var address in possibleAddresses)
                     model.City = address;
             }
-            HotDogList.ItemsSource = notHotDogInformation;
+            RiceList.ItemsSource = notHotDogInformation;
         }
     }
 }

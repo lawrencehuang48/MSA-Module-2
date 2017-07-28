@@ -68,7 +68,7 @@ namespace Mod2
 
             };
 
-            await AzureManager.AzureManagerInstance.PostHotDogInformation(model);
+            await AzureManager.AzureManagerInstance.PostRiceInformation(model);
         }
 
         static byte[] GetImageAsByteArray(MediaFile file)
