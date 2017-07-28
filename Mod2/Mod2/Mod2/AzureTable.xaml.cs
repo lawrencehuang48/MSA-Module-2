@@ -25,9 +25,9 @@ namespace Mod2
 
         async void Handle_ClickedAsync(object sender, System.EventArgs e)
         {
-            List<NotHotdogModel> notHotDogInformation = await AzureManager.AzureManagerInstance.GetHotDogInformation();
+            List<NotHotDogModel> notHotDogInformation = await AzureManager.AzureManagerInstance.GetHotDogInformation();
 
-            foreach (NotHotdogModel model in notHotDogInformation)
+            foreach (NotHotDogModel model in notHotDogInformation)
             {
                 var position = new Position(model.Latitude, model.Longitude);
                 var possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);

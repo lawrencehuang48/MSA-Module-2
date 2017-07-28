@@ -13,12 +13,12 @@ namespace Mod2
 
         private static AzureManager instance;
         private MobileServiceClient client;
-        private IMobileServiceTable<NotHotdogModel> notHotDogTable;
+        private IMobileServiceTable<NotHotDogModel> notHotDogTable;
 
         private AzureManager()
         {
             this.client = new MobileServiceClient("http://amplifii.azurewebsites.net");
-            this.notHotDogTable = this.client.GetTable<NotHotdogModel>();
+            this.notHotDogTable = this.client.GetTable<NotHotDogModel>();
         }
 
         public MobileServiceClient AzureClient
@@ -39,14 +39,10 @@ namespace Mod2
             }
         }
 
-        public async Task<List<NotHotdogModel>> GetHotDogInformation()
+        public async Task<List<NotHotDogModel>> GetHotDogInformation()
         {
             return await this.notHotDogTable.ToListAsync();
         }
 
-        public async Task PostHotDogInformation(NotHotdogModel notHotDogModel)
-        {
-            await this.notHotDogTable.InsertAsync(notHotDogModel);
-        }
     }
 }
