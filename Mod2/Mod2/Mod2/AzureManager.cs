@@ -44,5 +44,9 @@ namespace Mod2
             return await this.notHotDogTable.ToListAsync();
         }
 
+        public async Task PostHotDogInformation(NotHotDogModel notHotDogModel)
+        {
+            await this.notHotDogTable.InsertAsync(notHotDogModel);
+        }
     }
 }

@@ -1,5 +1,7 @@
-﻿using Mod2.Model;
+﻿using Mod2.DataModels;
+using Mod2.Model;
 using Newtonsoft.Json;
+using Plugin.Geolocator;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
@@ -46,7 +48,27 @@ namespace Mod2
                 return file.GetStream();
             });
 
+            await postLocationAsync();
+
             await MakePredictionRequest(file);
+        }
+
+        async Task postLocationAsync()
+        {
+
+            var locator = CrossGeolocator.Current;
+            locator.DesiredAccuracy = 50;
+
+            var position = await locator.GetPositionAsync(TimeSpan.FromMilliseconds(1000));
+
+            NotHotDogModel model = new NotHotDogModel()
+            {
+                Longitude = (float)position.Longitude,
+                Latitude = (float)position.Latitude
+
+            };
+
+            await AzureManager.AzureManagerInstance.PostHotDogInformation(model);
         }
 
         static byte[] GetImageAsByteArray(MediaFile file)
