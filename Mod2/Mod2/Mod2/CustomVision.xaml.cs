@@ -84,7 +84,7 @@ namespace Mod2
 
             client.DefaultRequestHeaders.Add("Prediction-Key", "e255f72dcb9b4f69917f05309ab246d2");
 
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/230ecc8b-136a-4b28-9a6c-9a8a592114aa/image?iterationId=da0a710e-9e4e-4e01-8f63-78c21f210b35";
+            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/f4777059-a48b-4ab0-b43f-d585c83e164e/image?iterationId=92c71ce9-4e94-4ced-a344-031e5939af17";
 
             HttpResponseMessage response;
 
@@ -105,7 +105,7 @@ namespace Mod2
 
                     double max = responseModel.Predictions.Max(m => m.Probability);
 
-                    TagLabel.Text = (max >= 0.5) ? "Broccoli" : "Not Broccoli";
+                    TagLabel.Text = (max >= 0.5) ? "Rice" : "Not Rice";
 
                 }
         
