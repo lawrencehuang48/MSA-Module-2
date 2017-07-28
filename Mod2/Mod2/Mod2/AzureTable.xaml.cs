@@ -35,6 +35,7 @@ namespace Mod2
                     model.City = address;
             }
             RiceList.ItemsSource = notHotDogInformation;
+            notHotDogInformation.Reverse();
         }
     }
 }
