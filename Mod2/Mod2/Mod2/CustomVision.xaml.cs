@@ -110,7 +110,7 @@ namespace Mod2
 
                     double max = responseModel.Predictions.Max(m => m.Probability);
 
-                    TagLabel.Text = (max >= 0.5) ? "This is a photo of rice as it has a probability of " + max + "." : " This is not a photo of rice as it's probability is only " + max + ".";
+                    TagLabel.Text = (max >= 0.5) ? "This is a photo of rice (Probability: " + max + ")." : " This is not a photo of rice (Probability: " + max + ").";
 
                     file.Dispose();
                 }
