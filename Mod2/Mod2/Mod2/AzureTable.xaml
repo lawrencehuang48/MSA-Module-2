@@ -5,7 +5,7 @@
     </ContentPage.Padding>
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="See Photo Information" TextColor="White" BackgroundColor="Red" Clicked="Handle_ClickedAsync" />
+            <Button Text="Show Photo Information" TextColor="White" BackgroundColor="Red" Clicked="Handle_ClickedAsync" />
             <ListView x:Name="RiceList" HasUnevenRows="true">
                 <ListView.ItemTemplate>
                     <DataTemplate>

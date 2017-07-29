@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Mod2.DataModels
 {
-    public class NotHotDogModel
+    public class RiceModel
     {
         [JsonProperty(PropertyName = "Id")]
         public string ID { get; set; }

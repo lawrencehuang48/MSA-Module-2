@@ -11,7 +11,7 @@
 namespace Mod2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Lawrence\\Documents\\Github\\Amplify\\App\\Mod2\\Mod2\\Mod2\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Lawrence\\Documents\\Github\\App\\Mod2\\Mod2\\Mod2\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

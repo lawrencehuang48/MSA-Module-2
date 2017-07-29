@@ -11,7 +11,7 @@
 namespace Mod2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Lawrence\\Documents\\Github\\Amplify\\App\\Mod2\\Mod2\\Mod2\\CustomVision.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Lawrence\\Documents\\Github\\App\\Mod2\\Mod2\\Mod2\\CustomVision.xaml")]
     public partial class CustomVision : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

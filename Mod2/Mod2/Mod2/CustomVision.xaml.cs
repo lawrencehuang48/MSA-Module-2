@@ -5,12 +5,14 @@ using Plugin.Geolocator;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
 namespace Mod2
@@ -18,6 +20,7 @@ namespace Mod2
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CustomVision : ContentPage
     {
+
         public CustomVision()
         {
             InitializeComponent();
@@ -59,13 +62,15 @@ namespace Mod2
             var locator = CrossGeolocator.Current;
             locator.DesiredAccuracy = 50;
 
+
             var position = await locator.GetPositionAsync(TimeSpan.FromMilliseconds(1000));
 
-            NotHotDogModel model = new NotHotDogModel()
+
+
+            RiceModel model = new RiceModel()
             {
                 Longitude = (float)position.Longitude,
                 Latitude = (float)position.Latitude
-
             };
 
             await AzureManager.AzureManagerInstance.PostRiceInformation(model);
@@ -105,13 +110,12 @@ namespace Mod2
 
                     double max = responseModel.Predictions.Max(m => m.Probability);
 
-                    TagLabel.Text = (max >= 0.5) ? "Rice" : "Not Rice";
+                    TagLabel.Text = (max >= 0.5) ? "This is a photo of rice with probability of " + max + "." : " This is not a photo of rice as it's probability is only " + max + ".";
 
+                    file.Dispose();
                 }
-        
-                file.Dispose();
             }
+
         }
     }
-
 }

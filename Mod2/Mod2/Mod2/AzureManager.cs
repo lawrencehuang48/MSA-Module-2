@@ -13,12 +13,12 @@ namespace Mod2
 
         private static AzureManager instance;
         private MobileServiceClient client;
-        private IMobileServiceTable<NotHotDogModel> notHotDogTable;
+        private IMobileServiceTable<RiceModel> RiceTable;
 
         private AzureManager()
         {
             this.client = new MobileServiceClient("http://amplifii.azurewebsites.net");
-            this.notHotDogTable = this.client.GetTable<NotHotDogModel>();
+            this.RiceTable = this.client.GetTable<RiceModel>();
         }
 
         public MobileServiceClient AzureClient
@@ -39,14 +39,24 @@ namespace Mod2
             }
         }
 
-        public async Task<List<NotHotDogModel>> GetRiceInformation()
+        public async Task<List<RiceModel>> GetRiceInformation()
         {
-            return await this.notHotDogTable.ToListAsync();
+            return await this.RiceTable.ToListAsync();
         }
 
-        public async Task PostRiceInformation(NotHotDogModel notHotDogModel)
+        public async Task PostRiceInformation(RiceModel RiceModel)
         {
-            await this.notHotDogTable.InsertAsync(notHotDogModel);
+            await this.RiceTable.InsertAsync(RiceModel);
+        }
+
+        public async Task UpdateRiceInformation(RiceModel RiceModel)
+        {
+            await this.RiceTable.UpdateAsync(RiceModel);
+        }
+
+        public async Task DeleteRiceInformation(RiceModel RiceModel)
+        {
+            await this.RiceTable.DeleteAsync(RiceModel);
         }
     }
 }

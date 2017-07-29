@@ -25,17 +25,17 @@ namespace Mod2
 
         async void Handle_ClickedAsync(object sender, System.EventArgs e)
         {
-            List<NotHotDogModel> notHotDogInformation = await AzureManager.AzureManagerInstance.GetRiceInformation();
+            List<RiceModel> RiceInformation = await AzureManager.AzureManagerInstance.GetRiceInformation();
 
-            foreach (NotHotDogModel model in notHotDogInformation)
+            foreach (RiceModel model in RiceInformation)
             {
                 var position = new Position(model.Latitude, model.Longitude);
                 var possibleAddresses = await geoCoder.GetAddressesForPositionAsync(position);
                 foreach (var address in possibleAddresses)
                     model.City = address;
             }
-            RiceList.ItemsSource = notHotDogInformation;
-            notHotDogInformation.Reverse();
+            RiceList.ItemsSource = RiceInformation;
+            RiceInformation.Reverse();
         }
     }
 }

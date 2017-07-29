@@ -45,7 +45,7 @@
     <Compile Include="CustomVision.xaml.cs">
       <DependentUpon>CustomVision.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DataModels\NotHotdogModel.cs" />
+    <Compile Include="DataModels\RiceModel.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
